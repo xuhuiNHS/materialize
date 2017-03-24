@@ -21,15 +21,20 @@
 
       // Override defaults
       options = $.extend(defaults, options);
-
       return this.each(function() {
         var $modal = $(this);
+
+        // new modification
+        // wrap modal in a modal-wrapper
+        // to allow for scrolling
+        $modal.wrap("<div class='modal-wrapper'></div>");
+        var $wrapper = $modal.parent();
         var modal_id = $(this).attr("id") || '#' + $(this).data('target');
 
         var closeModal = function() {
           var overlayID = $modal.data('overlay-id');
           var $overlay = $('#' + overlayID);
-          $modal.removeClass('open');
+          $wrapper.removeClass('open');
 
           // Enable scrolling
           $('body').css({
@@ -77,7 +82,7 @@
           $body.css('overflow', 'hidden');
           $body.width(oldWidth);
 
-          if ($modal.hasClass('open')) {
+          if ($wrapper.hasClass('open')) {
             return;
           }
 
@@ -88,7 +93,7 @@
           // Store a reference of the overlay
           $overlay.attr('id', overlayID).css('z-index', 1000 + lStack * 2);
           $modal.data('overlay-id', overlayID).css('z-index', 1000 + lStack * 2 + 1);
-          $modal.addClass('open');
+          $wrapper.addClass('open');
 
           $("body").append($overlay);
 
