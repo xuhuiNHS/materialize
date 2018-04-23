@@ -6847,7 +6847,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   font-size: 70px;
   padding: 10px;
   padding-bottom: 0px;
-  color: rgba(52, 112, 221, 0.25);
+  color: #b2dfdb;
 }
 
 .clockpicker-display-column {
@@ -6864,7 +6864,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   display: inline-block;
   font-size: 23px;
   line-height: 25px;
-  color: rgba(52, 112, 221, 0.25);
+  color: #b2dfdb;
 }
 
 .clockpicker-span-hours,
