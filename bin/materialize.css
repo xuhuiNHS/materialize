@@ -7002,29 +7002,29 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .clockpicker-canvas-bearing {
   stroke: none;
-  fill: rgba(0, 77, 64, 0.75);
+  fill: #3470dd;
 }
 
 .clockpicker-canvas-fg {
   stroke: none;
-  fill: rgba(0, 77, 64, 0);
+  fill: rgba(14, 92, 234, 0);
 }
 
 .clockpicker-canvas-fg.active {
-  fill: rgba(0, 77, 64, 0.5);
+  fill: rgba(14, 92, 234, 0.5);
 }
 
 .clockpicker-canvas-bg {
   stroke: none;
-  fill: rgba(0, 150, 136, 0.25);
+  fill: #3470dd;
 }
 
 .clockpicker-canvas-bg-trans {
-  fill: rgba(0, 150, 136, 0.25);
+  fill: #3470dd;
 }
 
 .clockpicker-canvas line {
-  stroke: rgba(0, 150, 136, 0.25);
+  stroke: #3470dd;
   stroke-width: 1;
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/
@@ -7062,11 +7062,11 @@ button {
 }
 
 .btn-floating.btn-flat.active {
-  background-color: rgba(0, 150, 136, 0.25);
+  background-color: rgba(52, 112, 221, 0.25);
 }
 
 .btn-floating.btn-flat:active {
-  background-color: rgba(0, 150, 136, 0.5);
+  background-color: rgba(52, 112, 221, 0.5);
 }
 
 .picker__footer .clockpicker-button {
@@ -7079,5 +7079,5 @@ button {
 }
 
 .picker__footer .clockpicker-button:active {
-  background-color: rgba(0, 150, 136, 0.25);
+  background-color: rgba(52, 112, 221, 0.25);
 }
