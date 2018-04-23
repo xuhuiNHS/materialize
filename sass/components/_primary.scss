@@ -252,7 +252,7 @@
 
 .clockpicker-canvas-fg {
     stroke: none;
-    fill: rgba($clockpicker-canvas-fg-fill, 1);
+    fill: rgba($clockpicker-canvas-fg-fill, 0.85);
     &.active {
         fill: rgba($clockpicker-canvas-fg-fill, 0.5);
     }
@@ -310,10 +310,10 @@ button {
             background-color: transparent;
         }
         &.active {
-            background-color: rgba($clockpicker-button-background-color, 0.85);
+            background-color: rgba($clockpicker-button-background-color, 0.25);
         }
         &:active {
-            background-color: rgba($clockpicker-button-background-color, 0.5);
+            background-color: rgba($clockpicker-button-background-color, 0.25);
         }
     }
 }
