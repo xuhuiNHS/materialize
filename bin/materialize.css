@@ -6965,7 +6965,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   position: absolute;
   cursor: pointer;
   transition: background-color 300ms;
-  background-color: rgba(0, 150, 136, 0);
+  background-color: rgba(52, 112, 221, 0);
 }
 
 .clockpicker-tick.active, .clockpicker-tick:hover {
@@ -7002,16 +7002,16 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .clockpicker-canvas-bearing {
   stroke: none;
-  fill: #3470dd;
+  fill: rgba(52, 112, 221, 0.75);
 }
 
 .clockpicker-canvas-fg {
   stroke: none;
-  fill: rgba(14, 92, 234, 0);
+  fill: rgba(52, 112, 221, 0);
 }
 
 .clockpicker-canvas-fg.active {
-  fill: rgba(14, 92, 234, 0.5);
+  fill: rgba(52, 112, 221, 0.5);
 }
 
 .clockpicker-canvas-bg {
