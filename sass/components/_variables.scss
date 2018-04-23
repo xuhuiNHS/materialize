@@ -31,18 +31,18 @@
 //box
 $clockpicker-picker-box-background: #fff !default;
 $clockpicker-picker-box-date-display-background-color: color("teal", "lighten-1") !default;
-$clockpicker-primary-color: color("teal", "lighten-4") !default;
+$clockpicker-primary-color: rgba(52, 112, 221, 0.25) !default;
 //tick
-$clockpicker-tick-background-color: rgba(color("light-blue", "accent-5"), 0) !default;
-$clockpicker-tick-background-color-active: rgba(color("teal", "base"), 0.25) !default;
+$clockpicker-tick-background-color: rgba(52, 112, 221, 0) !default;
+$clockpicker-tick-background-color-active: rgba(52, 112, 221, 0.25) !default;
 $clockpicker-tick-color: #666 !default;
 //canvas
-$clockpicker-canvas-bearing-fill: rgba(color("light-blue", "accent-5"), 0.75) !default;
-$clockpicker-canvas-fg-fill: color("light-blue", "accent-5") !default;
-$clockpicker-canvas-bg-fill: color("light-blue", "accent-5") !default;
+$clockpicker-canvas-bearing-fill: rgba(52, 112, 221, 0.85) !default;
+$clockpicker-canvas-fg-fill: rgb(52, 112, 221) !default;
+$clockpicker-canvas-bg-fill: rgba(52, 112, 221, 0.85) !default;
 $clockpicker-canvas-bg-stroke: $clockpicker-canvas-bg-fill !default;
 //buttons
-$clockpicker-button-background-color: color("light-blue", "accent-5") !default;
+$clockpicker-button-background-color: rgb(52, 112, 221) !default;
 $clockpicker-button-color: #666 !default;
 // =========================================================================
 
