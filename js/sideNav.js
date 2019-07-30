@@ -6,7 +6,9 @@
         menuWidth: 300,
         edge: 'left',
         closeOnClick: false,
-        draggable: true
+        draggable: true,
+        onOpen:null,
+        onClose:null
       };
       options = $.extend(defaults, options);
 
@@ -133,9 +135,16 @@
                 }
               });
           }
+          // if(onClose is specified)
+          if(typeof this.options.onClose == 'function') {
+            onClose.call($this, menu)
+          }
         };
 
-
+        // if onOpen is specified
+        if(typeof this.options.onOpen == 'function') {
+          onOpen.call($this, menu)
+        }
 
         // Touch Event
         var panning = false;
