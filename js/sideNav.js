@@ -136,15 +136,15 @@
               });
           }
           // if(onClose is specified)
-          if(typeof this.options.onClose == 'function') {
-            onClose.call($this, menu)
-          }
+            if(typeof options.onClose == 'function') {
+             options.onClose.call($this, menu)
+           }
         };
 
         // if onOpen is specified
-        if(typeof this.options.onOpen == 'function') {
-          onOpen.call($this, menu)
-        }
+       if(typeof options.onOpen == 'function') {
+         options.onOpen.call($this, menu)
+       }
 
         // Touch Event
         var panning = false;
